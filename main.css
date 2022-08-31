@@ -1,0 +1,163 @@
+html * {
+  padding:0px;
+  margin: 0px;
+  border: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+@media screen and (max-width: 4000px) {
+  
+  .article_container  {
+    
+    width: 1000px;
+    
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  
+  .article_container  {
+    
+    width: 1000px;
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_container,
+  .article_container  {
+    
+    width: 100%;
+    text-size-adjust: auto;
+    
+  }
+}
+
+
+
+
+   body{
+    background-color:white;
+}
+
+h2{
+  color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+  
+}
+
+.article_container {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position:relative;
+    width: 100%;
+    margin:0 0 0 0;
+}
+  
+  .article_elements {
+    background-color: white;
+    border: none;
+    max-width: 1000px;
+    position: absolute;
+    top:0px;
+    align-items: center;
+    justify-content: center;
+      }
+
+      .article_elements h1{
+        font-size:  50px;
+        Padding: 15px 0px;
+        text-align: center;
+      }
+  .article_elements h3{
+    color: green;
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 15px 0px;
+  }
+
+  .article_elements h4{
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+.canoe_container{   
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+
+.floating_title{
+    color: white;
+    background-color: none;
+    font-size: 50px;
+    box-shadow: 1pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.nav_img{
+  background-image: none;
+  padding: 0px 0px 0px 0px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  
+ }
+
+ .header_title{
+      padding: 15px 10px 10px 10px;
+      font-size: 20px;
+    
+ }
+ .crossed_paddles_img{
+  background-image: none;
+  padding: 0px 0px 0px 0px;
+
+ }
+
+ #panel {
+  display: none;
+  text-decoration: none;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  height: 500px;
+  width: 200px;
+  background-color: blue;
+  color:white;
+  z-index: 1;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  padding: 10px ;
+  line-height: 2;
+}
+
+.menu a:hover{
+  background-color: rgb(113, 113, 248);
+  font-weight: strong;
+  display: block;
+}
+.header_container{
+background-color: blue;
+color:white;  
+display: inline-flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+height: 60px;
+width: 100%;
+margin: 0 auto 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+   }  
